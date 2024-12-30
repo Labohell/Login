@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="/imgs/profile.jpeg" alt="profile" class="profile-photo">
+            <h2>Login</h2>
+        </div>
+        <form id="userform">
+            <label for="name">
+                <img src="/imgs/profile.jpeg" width="20p" class="user-photo">
+                <input type="text" id="name" placeholder="name" value="Matheus Araujo">
+            </label>
+            <label for="email">
+                <img src="/imgs/email.png" alt="email" class="user-photo">
+                <input type="email" id="email" placeholder="e-mail" value="matheusaraujo@gmail.com">
+            </label>
+            <label for="pass">
+                <img src="/imgs/pass.jpg" alt="lock" class="user-photo">
+                <input type="password" name="pass" id="pass" placeholder="password" value="*****">
+            </label>
+            <label for="confirmpass">
+                <img src="/imgs/pass.jpg" alt="lock" class="user-photo">
+                <input type="password" name="confirmpass" id="confirmpass" placeholder="confirm password" value="*****">
+            </label>
+            <div class="terms">
+                <input type="checkbox" id="terms">
+                <label for="terms">accepted the terms</label>
+            </div>
+            <div class="btn">   
+                <button type="submit">Confirm password</button>
+
+            </div>
+            
+        </form>
+        <footer>
+            <p>Developed by Matheus Araujo</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
